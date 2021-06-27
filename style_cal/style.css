@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: #e7e7e7;
+}
+.days{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.day{
+    flex-grow: 1;
+}
+.num_day{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.num{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    flex-grow: 1;
+}
+.line_time{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.time{
+    border: 1px solid gray;
+    flex-grow: 1;
+    height: 50px;
+    max-width: 209px;
+
+}
+.red {
+    background: #e98383;
+}
+.yellow{
+    background: #d4d494;
+}
